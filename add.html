@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showProducts()">
+    <div class="navBar" id="navbar">
+        <div class="navBarImage">
+            <!-- <img width=80px height="80px" src="pms.png"/> -->
+        </div>
+        <ul class="navBarMenu">
+            <a href="index.html"><li>Home</li></a>
+            <li>Add Items</li>
+
+        </ul>
+    </div>
+    <div id="parent">
+    <div id="productForm">
+        <h1 id="adding">Add Product</h1>
+    <form id="form">
+        <label for="product_name" id="lableName">Product Name: &nbsp&nbsp&nbsp</label><input type="text" id="product_name" placeholder="Product Name" required /> <br><br>
+        <label for="product_price" id="lablePrice">Product Price: &nbsp&nbsp&nbsp</label><input type="number" id="product_price" placeholder="Product Price" min="0" required /> <br><br>
+        <label for="product_description" id="lableDescription">Product Description: &nbsp&nbsp&nbsp</label><input type="text" id="product_description" placeholder="Product Description" required /> <br><br>
+        <label for="imageURL" id="lableUrl">Image URL: &nbsp&nbsp&nbsp</label><input type="text" id="imageURL" placeholder="Image URL" required /> <br><br>
+        <button id="addOrSave" onclick="addProduct()">Add Product</button>
+    </form>
+</div>  
+<div id="secondChild">
+    <h1 id="display"></h1>
+    <ol id="productList">
+
+    </ol>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

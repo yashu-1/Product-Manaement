@@ -1,0 +1,9 @@
+anonymous function:
+a function without a name.
+what is a call back fun - fun which is passes as args to a fun.
+
+function expressions:
+mdm serach
+if we can refer an anonymous fun with var then it klas fun expressions
+
+first class 

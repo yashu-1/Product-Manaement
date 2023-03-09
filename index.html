@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dd3f09b6b3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body id="indexPage" onload="showProductsIndex()">
+    <div class="navBar" id="navbar">
+        <div class="navBarImage">
+            
+        </div>
+        <ul class="navBarMenu">
+            <a onclick="showProductsIndex()"><li>Home</li></a>
+            <a href="add.html"><li>Add Items</li></a>
+        </ul>
+    </div>
+    <div id="intro">
+        <u><h1>Welcome to Product Management System</h1></u>
+        <h3>This page will allow user to "Add" "Update" and "Delete" product using local stroge.</h3>
+        <h3>Select <u><b>Add Option</b></u> from Menu to Add Product</h3>
+    </div>
+    <div id="indexDisplay">
+        <h1 id="indexHeading"></h1>
+        <ul id="productListIndex">
+
+        </ul>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
